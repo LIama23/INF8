@@ -18,13 +18,7 @@ public abstract class Figure extends JFrame
 		this.h = h;
 	}
 	
-	public Figure(Color color, int x, int y) 
-    {
-		this.color = color;
-		this.x = x;
-		this.y = y;
 
-	}
 
 
 	public abstract void draw(Graphics g);

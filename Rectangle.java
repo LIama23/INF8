@@ -12,6 +12,7 @@ public class Rectangle extends Figure
     public void draw(Graphics g) 
     {
         g.setColor(color);
+        g.drawRect(x, y, w, h);
         g.fillRect(x, y, w, h);
     }
 }

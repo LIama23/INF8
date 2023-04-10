@@ -8,7 +8,7 @@ public class Circle extends Figure
 
     public Circle(Color c, int mx, int my, int r)
     {
-        super(c, mx, my);
+        super(c, mx, my, my, r);
         this.r = r;
     }
 
@@ -16,6 +16,8 @@ public class Circle extends Figure
     public void draw(Graphics g) 
     {
 
+        g.drawOval(x, y, r/2, r/2);
+        g.fillOval(x, y, r/2, r/2);
 
     }
     

@@ -77,9 +77,17 @@ public class HouseFrame extends JFrame implements ActionListener {
         houseFrame.setVisible(true);
 
         
-        Triangle triangle = new Triangle(Color.BLACK, 100, 100, 200, 200, 300, 100);
-        System.out.println("x1: "+triangle.x1+"\nx2: "+triangle.x2+"\nx3: "+triangle.x3+"\ny1: "+triangle.y1);
+        Triangle triangle = new Triangle(Color.RED, 50, 200, 100, 100, 150, 200);
+        Rectangle rectangle = new Rectangle(Color.GRAY, 50, 200, 100, 100);
+        Rectangle rectangle2 = new Rectangle(Color.GREEN, 0, 300, 400, 100);
+        Rectangle rectangle3 = new Rectangle(Color.BLACK, 60, 230, 20, 20);
+        Circle circle = new Circle(Color.yellow, 200, 100, 100);
+
         houseFrame.add(triangle);
-  
+        houseFrame.add(rectangle);
+        houseFrame.add(rectangle2);
+        houseFrame.add(rectangle3);
+        houseFrame.add(circle);
+
     }
 }
