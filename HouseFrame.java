@@ -75,5 +75,11 @@ public class HouseFrame extends JFrame implements ActionListener {
         // show frame.
         houseFrame.setLocationRelativeTo(null);
         houseFrame.setVisible(true);
+
+        
+        Triangle triangle = new Triangle(Color.BLACK, 100, 100, 200, 200, 300, 100);
+        System.out.println("x1: "+triangle.x1+"\nx2: "+triangle.x2+"\nx3: "+triangle.x3+"\ny1: "+triangle.y1);
+        houseFrame.add(triangle);
+  
     }
 }

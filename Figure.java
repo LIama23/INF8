@@ -1,8 +1,10 @@
 
 import java.awt.*;
 
+import javax.swing.JFrame;
 
-public abstract class Figure 
+
+public abstract class Figure extends JFrame
 {
 	protected int x, y, w, h;
 	protected Color color;
