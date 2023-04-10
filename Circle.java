@@ -4,9 +4,12 @@ import java.awt.Graphics;
 public class Circle extends Figure
 {
 
-    public Circle(Color color, int x, int y, int w, int h) 
+    int r;
+
+    public Circle(Color c, int mx, int my, int r)
     {
-        super(color, x, y, w, h);
+        super(c, mx, my);
+        this.r = r;
     }
 
     @Override
